@@ -4,3 +4,27 @@
   padding: 2rem;
   text-align: center;
 }
+
+.circlesBox {
+  display: flex;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:last-child {
+  margin-right: 0;
+}
+
+.changeBtn {
+  margin-top: 50px;
+}
